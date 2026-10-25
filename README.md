@@ -1,50 +1,43 @@
-# 🐾 AyuNeko
+# 🐾 AyuNeko 3.1 realised
 
-**A pixel cat companion for AyuGram.** AyuNeko runs around the screen, follows taps, leaves paw-print trails, and sometimes scratches or sleeps.
+По экрану бегает пиксельный котик. Он живёт своей жизнью: бегает, чешется, спит и царапает стены. Кота можно перекрасить, настроить его размер и скорость, а ещё он реагирует на твои нажатия и личные сообщения.
 
-> **Version:** 3.1 · **Plugin ID:** `ayuneko` · **Author:** [NerisWhine275](https://github.com/neriswhine275)
+## 🐈 Что умеет кот
 
-## ✨ Features
+- Бежит туда, куда ты нажал.
+- Сами нажатия работают в приложении как обычно.
+- Если нажать на самого кота, он выберет новые точки и пробежится по экрану.
+- Иногда останавливается и чешется.
+- Если долго ничего не нажимать, засыпает.
+- Можно отключить сон — тогда кот вместо этого будет ходить царапать стены.
+- Удивляется, когда приходит личное сообщение.
+- В группах и каналах не реагирует.
+- Не прячется под клавиатурой. Когда она открывается, кот выбегает наверх.
+- Оставляет следы лапок во время ходьбы.
 
-- 🐈 A pixel cat that moves around the screen and reacts to taps.
-- 🐾 Optional paw-print trails.
-- 😴 Small idle animations, including scratching and sleeping.
-- 🎨 Customizable appearance and colors.
-- ⚙️ Settings integrated into the plugin interface.
+## 🎨 Цвета
 
-## 📦 Installation
+- **Белый с чёрной обводкой** — обычный.
+- **Чёрный с белой обводкой.**
+- **Рыжий.**
+- **Радужный** — переливается во время движения и в состоянии покоя.
 
-1. Download `AyuNeko_v3_1.plugin` from the **Releases** section or the repository files (once uploaded).
-2. Open AyuGram and go to its plugin management/installation interface.
-3. Import or install the `.plugin` file.
-4. Enable **AyuNeko** and adjust its settings.
+## ⚙️ Настройки
 
-The exact menu names may differ between AyuGram builds.
-
-## 🧩 Compatibility
-
-The plugin metadata specifies AyuGram version **12.10.6 or newer** (`>=12.10.6`). Compatibility may depend on the specific client build and its plugin API.
-
-## 🛠 Troubleshooting
-
-- **The cat does not appear:** check that the plugin is enabled, then restart the client.
-- **The plugin fails to load:** verify that your AyuGram build supports plugins and meets the version requirement.
-- **Settings or animations behave unexpectedly:** update AyuGram and try enabling the plugin again.
-
-## ℹ️ Project details
-
-| Field | Value |
-| --- | --- |
-| Name | AyuNeko |
-| Version | 3.1 |
-| Plugin ID | `ayuneko` |
-| Author | NerisWhine275 |
-| Minimum client version (metadata) | `>=12.10.6` |
-
-## 📄 License
-
-No license has been specified yet. Unless a license is added, reuse and redistribution are not automatically granted.
+- **Показывать кота** — включает и выключает кота.
+- **Цвет кота** — выбор внешнего вида.
+- **Размер кота** — маленький, средний или большой.
+- **Скорость** — медленно, нормально или быстро.
+- **Сон кота** — если включён, кот засыпает после простоя. Если выключен, вместо сна кот идёт к ближайшему краю экрана и царапает стену.
+- **Через сколько без нажатий** — настраивает время бездействия до перехода к следующему состоянию.
+- **Сколько царапает стену** — настраивает длительность царапания.
+- **Сколько удивляется сообщению** — настраивает длительность реакции на личное сообщение.
+- **Бежать к месту нажатия** — функцию можно включить или выключить.
+- **Удивляться личным сообщениям** — реакцию можно включить или отключить.
+- **Следы лапок** — можно включить или выключить.
+- **Цвет следов** — белый, чёрный, оранжевый или радужный.
+- **Показать кота сейчас** — добавляет кота на экран, если он не появился.
 
 ---
 
-Made with 🐾 by **NerisWhine275**.
+**Автор:** [NerisWhine275](https://github.com/neriswhine275)
